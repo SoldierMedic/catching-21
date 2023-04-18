@@ -24,7 +24,7 @@ index.js - The front end containing React components.
 # Requirements
 [Reach](https://github.com/reach-sh/reach-lang) - Install the Reach compiler to run the application.
 
-[Docker](https://docs.docker.com/engine/install/) - Install Docker to run the application
+[Docker](https://docs.docker.com/engine/install/) - Install Docker to containerize the application
 # Running the Game
 Install Reach by following the instructions on reach.sh.
 
