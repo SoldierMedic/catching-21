@@ -47,7 +47,7 @@ callsub l2_LF_timeCheck
 load 27 // wager/542
 callsub l3_LF_checkTxn_False
 // ^ CheckPay
-// at ./index.rsh:86:10:dot
+// at ./index.rsh:83:10:dot
 global Round
 int 20
 +
@@ -130,7 +130,7 @@ dup
 store 11 // v561
 callsub l3_LF_checkTxn_False
 // ^ CheckPay
-// at ./index.rsh:96:10:dot
+// at ./index.rsh:93:10:dot
 int 0
 int 0
 global Round
@@ -220,7 +220,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:187:16:dot
+// at ./index.rsh:184:16:dot
 load 29 // pNext/711
 int 1
 ==
@@ -352,7 +352,7 @@ txn Sender
 assert
 // ^ Claim: sender correct
 // at reach standard library:197:11:dot
-// at ./index.rsh:188:57:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
+// at ./index.rsh:185:57:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
 load 13 // netBalance/675
 // resource: R_Account
 load 26 // Dealer/558
@@ -404,7 +404,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:210:16:dot
+// at ./index.rsh:207:16:dot
 load 29 // dFirst/757
 int 1
 ==
@@ -467,7 +467,7 @@ txn Sender
 assert
 // ^ Claim: sender correct
 // at reach standard library:197:11:dot
-// at ./index.rsh:211:57:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
+// at ./index.rsh:208:57:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
 load 13 // netBalance/675
 // resource: R_Account
 load 28 // Player/541
@@ -544,7 +544,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:228:18:dot
+// at ./index.rsh:225:18:dot
 int 0
 int 0
 global Round
@@ -631,7 +631,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:238:20:dot
+// at ./index.rsh:235:20:dot
 load 22 // dAces/660
 int 1
 -
@@ -677,7 +677,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:251:24:dot
+// at ./index.rsh:248:24:dot
 load 29 // dNext/824
 int 1
 ==
@@ -739,7 +739,7 @@ txn Sender
 assert
 // ^ Claim: sender correct
 // at reach standard library:197:11:dot
-// at ./index.rsh:252:65:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
+// at ./index.rsh:249:65:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
 load 13 // netBalance/675
 // resource: R_Account
 load 28 // Player/541
@@ -820,7 +820,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:264:22:dot
+// at ./index.rsh:261:22:dot
 int 0
 global Round
 store 14 // thisConsensusTime/668
@@ -897,7 +897,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:121:12:dot
+// at ./index.rsh:118:12:dot
 global Round
 int 20
 +
@@ -964,7 +964,7 @@ txn Sender
 assert
 // ^ Claim: sender correct
 // at reach standard library:197:11:dot
-// at ./index.rsh:122:53:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
+// at ./index.rsh:119:53:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
 load 12 // netBalance/573
 // resource: R_Account
 load 26 // Dealer/558
@@ -1007,7 +1007,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:136:12:dot
+// at ./index.rsh:133:12:dot
 load 32 // pFirst/609
 int 1
 ==
@@ -1106,7 +1106,7 @@ txn Sender
 assert
 // ^ Claim: sender correct
 // at reach standard library:197:11:dot
-// at ./index.rsh:137:53:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
+// at ./index.rsh:134:53:application call to "closeTo" (defined at: reach standard library:195:8:function exp)
 load 12 // netBalance/573
 // resource: R_Account
 load 28 // Player/541
@@ -1199,7 +1199,7 @@ txn Sender
 ==
 assert
 // ^ Claim: sender correct
-// at ./index.rsh:165:16:dot
+// at ./index.rsh:162:16:dot
 load 29 // aceValue/688
 int 1
 ==
